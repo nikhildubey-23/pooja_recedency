@@ -502,8 +502,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .past-project-img {
     width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: auto;
+    min-height: 250px;
+    max-height: 400px;
+    object-fit: contain;
     object-position: center;
 }
 
